@@ -95,12 +95,11 @@ function Nav({ refs }) {
           {/* Logo */}
           <button onClick={() => window.scrollTo({ top: 0, behavior: "smooth" })}
             style={{ background: "none", border: "none", cursor: "pointer", padding: 0, textAlign: "left" }}>
-            <div style={{ fontWeight: 900, fontSize: 17, letterSpacing: "0.06em", color: C.negro, lineHeight: 1 }}>
-              MERCA<span style={{ color: C.mag }}>MÉXICO</span>
-            </div>
-            <div style={{ fontSize: 7.5, letterSpacing: "0.3em", textTransform: "uppercase", color: C.grisTx, marginTop: 1 }}>
-              Organismo Validador Autorizado
-            </div>
+            <img
+              src="/images/logo-mercamexico-negro.png"
+              alt="MercaMéxico"
+              style={{ height: 52, width: "auto", display: "block" }}
+            />
           </button>
 
           {/* Links */}
@@ -204,13 +203,11 @@ function Hero({ refContacto }) {
               textTransform: "uppercase", letterSpacing: "-0.03em",
               color: C.negro,
             }}>
-              El SAT te cobra<br />
-              impuestos sobre<br />
-              dinero que<br />
-              <span style={{
-                color: C.mag,
-                WebkitTextStroke: "0px",
-              }}>no ganaste.</span>
+              Por primera vez<br />
+              en 50 años,<br />
+              tributa sobre<br />
+              lo que realmente<br />
+              <span style={{ color: C.mag }}>ganas.</span>
             </h1>
 
             {/* Subline */}
@@ -849,12 +846,11 @@ function Footer() {
         <div style={{ display: "grid", gridTemplateColumns: "repeat(auto-fit, minmax(180px, 1fr))", gap: 40, marginBottom: 48 }}>
 
           <div>
-            <div style={{ fontWeight: 900, fontSize: 17, color: C.blanco, letterSpacing: "0.05em", marginBottom: 4 }}>
-              MERCA<span style={{ color: C.mag }}>MÉXICO</span>
-            </div>
-            <div style={{ fontSize: 8, letterSpacing: "0.25em", textTransform: "uppercase", color: "rgba(255,255,255,0.3)", marginBottom: 16 }}>
-              Asociación Mexicana de Mercados<br />y Centrales de Abasto, A.C.
-            </div>
+            <img
+              src="/images/logo-mercamexico-blanco.png"
+              alt="MercaMéxico"
+              style={{ height: 56, width: "auto", display: "block", marginBottom: 16 }}
+            />
             <p style={{ margin: 0, fontSize: 12, color: "rgba(255,255,255,0.4)", lineHeight: 1.7 }}>
               Herramientas de cumplimiento,<br />no privilegios.
             </p>
