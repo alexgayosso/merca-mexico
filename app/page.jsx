@@ -198,16 +198,14 @@ function Hero({ refContacto }) {
 
             {/* Headline — brutalismo editorial */}
             <h1 style={{
-              margin: 0, fontWeight: 900, lineHeight: 0.93,
-              fontSize: "clamp(52px, 9vw, 110px)",
-              textTransform: "uppercase", letterSpacing: "-0.03em",
+              margin: 0, fontWeight: 900, lineHeight: 0.97,
+              fontSize: "clamp(36px, 5.5vw, 68px)",
+              textTransform: "uppercase", letterSpacing: "-0.02em",
               color: C.negro,
             }}>
-              Por primera vez<br />
-              en 50 años,<br />
-              tributa sobre<br />
-              lo que realmente<br />
-              <span style={{ color: C.mag }}>ganas.</span>
+              Por primera vez en 50 años,<br />
+              tributa sobre lo que<br />
+              realmente <span style={{ color: C.mag }}>ganas.</span>
             </h1>
 
             {/* Subline */}
